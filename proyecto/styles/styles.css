@@ -41,7 +41,7 @@ header{
 button{
     background-color: rgb(37, 24, 218);
     height: 10vh;
-    width: 320px;
+    width: 20vw;
     color: #04BFBF;
     font-size: 20px;
     font-family: 'Anton SC', sans-serif;
@@ -50,7 +50,7 @@ button{
 .navegacion{
     margin-top: 10vh;
     display: flex;
-    height: 10vh;
+    height: 100vh;
     width: 20vw;
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
@@ -66,7 +66,7 @@ img {
     margin: auto;
     width: 30%;
     height: auto;
-    opacity: 60%;
+    opacity: 100%;
 }
 
 .cuerpoprincipal{
@@ -74,4 +74,12 @@ img {
     justify-content: center;
     display: flex;
     color: white;
+}
+
+
+body {
+    background-image: url('ruta/a/tu/fotoGuateleta.jpg'); /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
