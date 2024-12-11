@@ -19,7 +19,7 @@
 *{
     background-color:black ;
     margin: 0;
-
+    padding: 0;
 }
 
 
@@ -42,7 +42,7 @@ header{
 button{
     background-color: rgb(37, 24, 218);
     height: 10vh;
-    width: 320px;
+    width: 20vw;
     color: #04BFBF;
     font-size: 20px;
     font-family: 'Anton SC', sans-serif;
@@ -52,12 +52,11 @@ button{
     margin-top: 10vh;
     display: flex;
     height: 10vh;
-    width: 50px;
+    width: 0vw;
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
     display: flex;
     height: 10vh;
-    width: 50px;
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
 }
@@ -78,9 +77,29 @@ button{
     background-color: blue;
 }
 
-.imagenismael{
-    margin-left: 20px;
-    margin-top: 20px;
+.imagenesjugadas {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
     height: 55vh;
     width: 22.5vw;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
 }
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+

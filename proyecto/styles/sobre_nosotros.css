@@ -17,11 +17,10 @@
 
 
 *{
-    background-color:rgb(0, 4, 255) ;
+    background-color:black ;
     margin: 0;
-
+    padding: 0;
 }
-
 
 
 header{
@@ -36,13 +35,12 @@ header{
     align-items: center;
     justify-content: center;
     font-family: 'Squada One', sans-serif;
-
 }
 
 button{
     background-color: rgb(37, 24, 218);
-    height: 70px;
-    width: 320px;
+    height: 10vh;
+    width: 20vw;
     color: #04BFBF;
     font-size: 20px;
     font-family: 'Anton SC', sans-serif;
@@ -51,13 +49,64 @@ button{
 .navegacion{
     margin-top: 10vh;
     display: flex;
-    height: 20vh;
-    width: 50px;
+    height: 100vh;
+    width: 50vw;
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
     display: flex;
-    height: 20vh;
-    width: 50px;
+    height: 10vh;
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
 }
+
+/* Estilo general para la sección de textos */
+.textosobrenosotros {
+    font-family: Arial, sans-serif; /* Fuente general */
+    line-height: 1.6; 
+    margin: 20px; 
+    padding: 20px; 
+}
+
+/* Estilo para los encabezados */
+.textosobrenosotros h1, .textosobrenosotros h2 {
+    color: #333; 
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición de color y transformación */
+}
+
+/* Efecto al pasar el ratón sobre los encabezados */
+.textosobrenosotros h1:hover, .textosobrenosotros h2:hover {
+    color: #007BFF; /* Cambia el color al pasar el ratón */
+    transform: scale(0.96); /* disminuye ligeramente el tamaño */
+}
+
+/* Estilo para la lista */
+.flex-item ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+/* Estilo para los elementos de la lista */
+.flex-item li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transición para el efecto de movimiento y color */
+    color: #555; /* Color del texto de la lista */
+}
+
+/* Efecto al pasar el ratón sobre los elementos de la lista */
+.flex-item li:hover {
+    transform: translateX(5px); /* Mueve el texto ligeramente a la derecha */
+    color: #007BFF; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilo para el contenedor de la lista */
+.flex-container {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilo para los párrafos */
+.textosobrenosotros p {
+    margin: 10px 0; /* Margen superior e inferior */
+    color: #666; /* Color del texto */
+    transition: color 0.3s ease; /* Transición de color */
+}
+
