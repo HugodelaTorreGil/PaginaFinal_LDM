@@ -40,7 +40,7 @@ header{
 button{
     background-color: rgb(37, 24, 218);
     height: 10vh;
-    width: 20vw;
+    width: 16.7vw;
     color: #04BFBF;
     font-size: 20px;
     font-family: 'Anton SC', sans-serif;
@@ -69,7 +69,7 @@ button{
 
 /* Estilo para los encabezados */
 .textosobrenosotros h1, .textosobrenosotros h2 {
-    color: #333; 
+    color: #04BFBF; 
     transition: color 0.3s ease, transform 0.3s ease; /* Transición de color y transformación */
 }
 
@@ -89,7 +89,7 @@ button{
 .flex-item li {
     margin-bottom: 10px; /* Espaciado entre elementos de la lista */
     transition: transform 0.3s ease, color 0.3s ease; /* Transición para el efecto de movimiento y color */
-    color: #555; /* Color del texto de la lista */
+    color: #04BFBF; /* Color del texto de la lista */
 }
 
 /* Efecto al pasar el ratón sobre los elementos de la lista */
