@@ -15,15 +15,16 @@
         <a href="./sobre_nosotros.html"><button>SOBRE NOSOTROS</button></a>
         <a href="./unete.html"><button>UNETE</button></a>
         <a href="./merch.html"><button>MERCHANDISING</button></a>
-        <a href="liga.html"><button>LIGA</button></a>
+        <a href="https://fafutsala.com/es/tournament/1287393/ranking"><button>LIGA</button></a>
     </nav>
 
 
     <nav class="formulario">
 
-        <div>
+       <div class="formulario">
+    <div class="unete">
         <h2>Únete al equipo!!</h2>
-            <br>
+        <br>
         <form action="" method="post">
             <label for="nombre">Nombre:</label>
             <br>
@@ -65,17 +66,29 @@
         </form>
     </div>
 
-    <div>
-        <h2>¿Alguna sugerencia?</h2>
+    <div class="sugerencia">
+        <h2>¿Quieres jugar un amistoso?</h2>
         <br>
         <form action="" method="post">
-        <label for="sugerencia">Sugerencias</label>
+        <label for="nombre_equipo">Nombre del equipo:</label>
         <br>
-        <textarea name="sugerencia" id="sugerencia"></textarea>
+        <input type="text" id="nombre_equipo" name="nombre_equipo" required pattern="[a-zA-Z ]+" title="Solo se permiten letras"><br><br>
+        <label for="media_edad">Media de edad del equipo:</label>
+        <br>
+        <input type="number" id="media_edad" name="media_edad" required pattern="[0-9]+" title="Solo se permiten números"><br><br>
+        <label for="pista">¿Dónde deseas jugar el amistoso?</label>
+        <br>
+        <br>
+        <input type="radio" id="nuestras_pistas" name="pista" value="nuestras_pistas" required>
+        <label for="nuestras_pistas">En nuestras pistas (GUATELETA)</label>
+        <br>
+        <input type="radio" id="sus_pistas" name="pista" value="sus_pistas">
+        <label for="sus_pistas">En vuestras pistas (Tu equipo)</label><br><br>
+        <input type="submit" value="Enviar" class="enviar">
         </form>
     </div>
 
-    <div>
+    <div class="patrocinio">
         <h2>Patrocinanos!!!</h2>
         <form action="" method="post">
             <label for="nombreempresa">Nombre de tu empresa</label>
@@ -85,13 +98,28 @@
             <label for="cantidaddinero">¿Cuanto dinero deseas aportar?</label>
             <br>
             <input type="number" name="cantidaddinero" id="cantidaddinero">
-    
+            <br>
+            <label for="email">Introduce un email de contacto</label>
+            <br>
+            <input type="email" id="correo" name="correo" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Introduce un correo electrónico válido">
+            <br><br>
+            <input type="submit" value="Enviar" class="enviar">
+            
         </form>
 
+        
     </div>
+</div>
 
 </nav>
 
 
 </body>
+
+<footer>
+    <p>Al enviar este formulario, aceptas nuestros Términos y Condiciones y nuestra Política de Privacidad.</p>
+    <input type="checkbox" id="aceptar" name="aceptar" required>
+    <label for="aceptar">Acepto los Términos y Condiciones y la Política de Privacidad</label>
+</footer>
+
 </html>
