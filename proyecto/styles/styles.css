@@ -71,6 +71,7 @@ img {
 
 .cuerpoprincipal{
     margin-top: 30px;
+    height: 30vh;
     justify-content: center;
     display: flex;
     color: white;
@@ -83,6 +84,7 @@ body {
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     overflow-x: hidden;
+    /*overflow-y: hidden;*/
 }
 
 .izquierda{
@@ -93,7 +95,7 @@ body {
 
 .foto{
     width: 33.3vw;
-    height: 73.6vh;
+    height: 30vh;
 }
 
 .derecha{
@@ -101,3 +103,6 @@ body {
     width: 33.3vw;
     height: 73.6vh;
 }
+
+
+

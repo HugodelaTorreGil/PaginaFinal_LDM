@@ -61,3 +61,64 @@ button{
     justify-content: space-evenly; 
     background-color: rgb(37, 24, 218);
 }
+
+.recuadrosropa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.recuadroazul {
+    width: 25vw;
+    height: 70vh;
+    margin: 10px;
+    background-color: #04BFBF;
+}
+
+.imagenesropa {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 22.5vw;
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.redireccion{
+    background-color:#04BFBF;
+    color: #010A26;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 120px;
+}
+
+.camiseta{
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 20vw;
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}

@@ -104,4 +104,60 @@ button{
     }
 }
 
+.zeus{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 15vw;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
+.luis{
+    margin-left: 80px;
+    margin-right: 25px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 17vw;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
+.sergiolateral{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 17w;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
+.victorcorriendo{
+    margin-left: 90px;
+    margin-right: 25px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 17vw;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
 
