@@ -80,8 +80,7 @@ button{
 }
 
 .imagenesjugadas {
-    margin-left: 25px;
-    margin-right: 25px;
+   margin: 18px;
     margin-top: 50px;
     height: 55vh;
     width: 22.5vw;
@@ -105,9 +104,7 @@ button{
 }
 
 .zeus{
-    margin-left: 100px;
-    margin-right: 50px;
-    margin-top: 50px;
+   margin: 70px;
     height: 55vh;
     width: 15vw;
     
@@ -119,9 +116,7 @@ button{
 }
 
 .luis{
-    margin-left: 80px;
-    margin-right: 25px;
-    margin-top: 50px;
+    margin: 50px;
     height: 55vh;
     width: 17vw;
     
@@ -133,9 +128,7 @@ button{
 }
 
 .sergiolateral{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin: 50px;
     height: 55vh;
     width: 17w;
     
@@ -147,9 +140,7 @@ button{
 }
 
 .victorcorriendo{
-    margin-left: 90px;
-    margin-right: 25px;
-    margin-top: 50px;
+    margin: 50px;
     height: 55vh;
     width: 17vw;
     

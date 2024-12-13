@@ -72,7 +72,7 @@ button{
     width: 25vw;
     height: 70vh;
     margin: 10px;
-    background-color: #04BFBF;
+    background-color: rgb(37, 24, 218);
 }
 
 .imagenesropa {
@@ -101,13 +101,13 @@ button{
 
 
 .redireccion{
-    background-color:#04BFBF;
-    color: #010A26;
+    background-color: rgb(37, 24, 218);
+    color: #04BFBF;
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
     text-decoration: none;
-    margin: 120px;
+    margin: 80px;
 }
 
 .camiseta{
@@ -122,3 +122,271 @@ button{
     transition: all 1s ease-out; /* Transición suave */
     animation: aparecer 3s forwards;
 }
+
+@media (max-width: 768px) {
+
+    /*#00010D
+    #010A26
+    #04BFBF
+    #027373
+    #04BFAD*/
+    
+    /* Fuente de los botones */
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+    /* Fuente del header*/
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&display=swap');
+    
+    .squada-one-regular {
+        font-family: "Squada One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    
+    *{
+        background-color:black ;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }   
+    
+    header{
+        color: #04BFBF;
+        font-size: 50px;
+        background-color: #010A26;
+        width: 100vw;
+        height: 0vh;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Squada One', sans-serif;
+    
+    }
+    
+    button{
+        background-color: rgb(37, 24, 218);
+        height: 10vh;
+        width: 16.7vw;
+        color: #04BFBF;
+        font-size: 10px;
+        font-family: 'Anton SC', sans-serif;
+    }
+    
+        .recuadrosropa {
+            display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: white;
+            margin: 20px;
+        }
+
+        .recuadrosropa{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        }
+
+        .recuadroazul {
+            width: 65vw;
+            height: 70vh;
+            margin: 20px;
+            background-color:   rgb(37, 24, 218);
+        }
+    
+    
+      .imagenesropa {
+        margin: 15px;
+        margin: 20px;
+        margin-left: 90px;
+        height: 55vh;
+        width: 40vw;
+        align-items: center;
+        text-align: center;
+        
+        
+        opacity: 0; /* Invisibles inicialmente */
+        transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+        transition: all 1s ease-out; /* Transición suave */
+        animation: aparecer 3s forwards;
+    }
+
+    .camiseta{
+        margin: 15px;
+        margin-left: 140px;
+        margin-top: 50px;
+        height: 45vh;
+        width: 30vw;
+        
+        
+        opacity: 0; /* Invisibles inicialmente */
+        transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+        transition: all 1s ease-out; /* Transición suave */
+        animation: aparecer 3s forwards;
+    }
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .redireccion{
+        background-color: rgb(37, 24, 218);
+        color: #04BFBF;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 140px;
+        width: 50vw;
+        font-size: 30px;
+        text-decoration: none;
+        
+    }
+
+    }
+    
+    @media (max-width: 480px) {
+    
+    
+        /*#00010D
+    #010A26
+    #04BFBF
+    #027373
+    #04BFAD*/
+    
+    /* Fuente de los botones */
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+    /* Fuente del header*/
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&display=swap');
+    
+    .squada-one-regular {
+        font-family: "Squada One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    
+    *{
+        background-color:black ;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }   
+    
+    header{
+        color: #04BFBF;
+        font-size: 50px;
+        background-color: #010A26;
+        width: 100vw;
+        height: 0vh;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Squada One', sans-serif;
+    
+    }
+    
+    button{
+        background-color: rgb(37, 24, 218);
+        height: 10vh;
+        width: 16.7vw;
+        color: #04BFBF;
+        font-size: 10px;
+        font-family: 'Anton SC', sans-serif;
+    }
+    
+        .recuadrosropa {
+            display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: white;
+            margin: 20px;
+        }
+
+        .recuadrosropa{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        }
+
+        .recuadroazul {
+            width: 55vw;
+            height: 70vh;
+            margin: 20px;
+            background-color:   rgb(37, 24, 218);
+        }
+    
+    
+      .imagenesropa {
+        margin: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 50px;
+        height: 45vh;
+        width: 45vw;
+        
+        
+        opacity: 0; /* Invisibles inicialmente */
+        transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+        transition: all 1s ease-out; /* Transición suave */
+        animation: aparecer 3s forwards;
+    }
+
+    .camiseta{
+        margin: 15px;
+        height: 40vh;
+        width: 80vw;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 50px;
+        height: 35vh;
+        width: 45vw;
+        
+        
+        opacity: 0; /* Invisibles inicialmente */
+        transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+        transition: all 1s ease-out; /* Transición suave */
+        animation: aparecer 3s forwards;
+    }
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .redireccion{
+        background-color: rgb(37, 24, 218);
+        color: #04BFBF;
+        text-align: center;
+        margin-top: 20px;
+        width: 40vw;
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: 55px;
+    }
+}
+    
+    
