@@ -135,6 +135,7 @@ footer{
   } 
   
   @media (max-width: 480px) {
+   
     header, a {
       margin-top: 20px;
       font-size: 20px;

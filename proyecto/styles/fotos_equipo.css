@@ -46,7 +46,7 @@ button{
     height: 10vh;
     width: 16.7vw;
     color: #04BFBF;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Anton SC', sans-serif;
 }
 
@@ -160,4 +160,240 @@ button{
     animation: aparecer 3s forwards;
 }
 
+@media (max-width: 768px) {
 
+/*#00010D
+#010A26
+#04BFBF
+#027373
+#04BFAD*/
+
+/* Fuente de los botones */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+/* Fuente del header*/
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&display=swap');
+
+.squada-one-regular {
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+*{
+    background-color:black ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}   
+
+header{
+    color: #04BFBF;
+    font-size: 50px;
+    background-color: #010A26;
+    width: 100vw;
+    height: 0vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Squada One', sans-serif;
+
+}
+
+button{
+    background-color: rgb(37, 24, 218);
+    height: 10vh;
+    width: 16.7vw;
+    color: #04BFBF;
+    font-size: 10px;
+    font-family: 'Anton SC', sans-serif;
+}
+
+    .recuadros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+    .recuadro {
+        width: 25vw;
+        height: 70vh;
+        margin: 10px;
+    }
+    .azul {
+        background-color: blue;
+    }
+
+
+  .imagenesjugadas, .zeus, .luis, .sergiolateral, .victorcorriendo {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 40vh;
+    width: 80vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 22.5vw;
+    
+    
+    opacity: 0; /* Invisibles inicialmente */
+    transform: translateX(-100%); /* Fuera de la pantalla a la izquierda */
+    transition: all 1s ease-out; /* Transición suave */
+    animation: aparecer 3s forwards;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+}
+
+@media (max-width: 480px) {
+
+
+    /*#00010D
+#010A26
+#04BFBF
+#027373
+#04BFAD*/
+
+/* Fuente de los botones */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+/* Fuente del header*/
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&display=swap');
+
+.squada-one-regular {
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+*{
+    background-color:black ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}   
+
+header{
+    color: #04BFBF;
+    font-size: 50px;
+    background-color: #010A26;
+    width: 100vw;
+    height: 0vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Squada One', sans-serif;
+
+}
+
+button{
+    background-color: rgb(37, 24, 218);
+    height: 10vh;
+    width: 16.7vw;
+    color: #04BFBF;
+    font-size: 15px;
+    font-family: 'Anton SC', sans-serif;
+}
+
+
+    .recuadros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+    .recuadro {
+        width: 70vw;
+        height: 70vh;
+        margin: 10px;
+    }
+    .azul {
+        background-color: blue;
+    }
+
+  .imagenesjugadas {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 60vh;
+    width: 55vw;
+  }
+
+  .zeus{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 60vh;
+    width: 35vw;
+  }
+
+  .sergiolateral{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 60vh;
+    width: 45vw;
+  }
+
+  .victorcorriendo{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 60vh;
+    width: 55vw;
+  }
+
+  .luis{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 60vh;
+    width: 45vw;
+  }
+
+
+
+.imagenesjugadas, .zeus, .luis, .sergiolateral, .victorcorriendo {
+  display: block;
+  margin: 0 auto;
+}
+
+.recuadros {
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+}
