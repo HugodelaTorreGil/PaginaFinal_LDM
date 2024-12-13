@@ -113,3 +113,60 @@ button{
     transition: color 0.3s ease; /* Transición de color */
 }
 
+
+@media (max-width: 480px) {
+    
+    
+    /*#00010D
+#010A26
+#04BFBF
+#027373
+#04BFAD*/
+
+/* Fuente de los botones */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+/* Fuente del header*/
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&display=swap');
+
+.squada-one-regular {
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+*{
+    background-color:black ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}   
+
+header{
+    color: #04BFBF;
+    font-size: 50px;
+    background-color: #010A26;
+    width: 100vw;
+    height: 0vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Squada One', sans-serif;
+
+}
+
+button{
+    background-color: rgb(37, 24, 218);
+    height: 10vh;
+    width: 16.7vw;
+    color: #04BFBF;
+    font-size: 10px;
+    font-family: 'Anton SC', sans-serif;
+}
+
+}
